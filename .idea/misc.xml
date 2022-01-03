@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gabrielle.poli.PITAGORAS/Documents/dev/Estudos/Udacity/secondProjectUdacityAsteroid_Radar/app/src/main/res/layout/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/Users/gabrielle.poli.PITAGORAS/Documents/dev/Estudos/Udacity/secondProjectUdacityAsteroid_Radar/app/src/main/res/layout/fragment_main.xml" value="0.1" />
         <entry key="..\:/Users/gabrielle.poli.PITAGORAS/Documents/nd940-android-kotlin-c2-starter/starter/app/src/main/res/layout/fragment_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/gabrielle.poli.PITAGORAS/Documents/nd940-android-kotlin-c2-starter/starter/app/src/main/res/layout/item_asteroid.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/gabrielle.poli.PITAGORAS/Documents/nd940-android-kotlin-c2-starter/starter/app/src/main/res/menu/main_overflow_menu.xml" value="0.16666666666666666" />

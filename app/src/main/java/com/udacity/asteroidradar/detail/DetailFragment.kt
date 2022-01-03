@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProviders
 import com.udacity.asteroidradar.R
 import com.udacity.asteroidradar.databinding.FragmentDetailBinding
 
@@ -17,6 +18,14 @@ class DetailFragment : Fragment() {
         binding.lifecycleOwner = this
 
         val asteroid = DetailFragmentArgs.fromBundle(arguments!!).selectedAsteroid
+
+        // contentDescription
+        val application = requireNotNull(activity).application
+        val viewModelFactory = DetailViewModelFactory(asteroid, application)
+
+        // DetailViewModel
+        binding.viewModel = ViewModelProviders.of(
+            this, viewModelFactory).get(DetailViewModel::class.java)
 
         binding.asteroid = asteroid
 
